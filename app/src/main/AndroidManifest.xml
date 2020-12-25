@@ -17,10 +17,7 @@
             </intent-filter>
         </activity>
 
-        <activity
-            android:name=".ui.PayTransparentActivity"
-            android:launchMode="singleTask"
-            android:theme="@style/TranslucentTheme" />
+
     </application>
 
 </manifest>

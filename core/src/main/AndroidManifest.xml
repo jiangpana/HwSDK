@@ -1,5 +1,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.rj.hwsdk">
 
-    /
+    <application>
+        <activity
+            android:name=".ui.PayTransparentActivity"
+            android:launchMode="singleTask"
+            android:theme="@style/TranslucentTheme" />
+    </application>
+
 </manifest>
